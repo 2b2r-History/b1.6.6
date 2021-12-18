@@ -23,11 +23,11 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "world"
+        "2b2r"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1639844440",
+        "cacheTag": "1639847596",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -41,14 +41,14 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Overviewer Render (lighting)",
+            "name": "2b2r History -- Beta 1.6.6",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "world-lighting",
+            "path": "overworld",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "world",
+            "world": "2b2r",
             "last_rendertime": 1639758874,
             "imgextension": "png",
             "isOverlay": false,
