@@ -23,11 +23,12 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "b1.6.6"
+        "b1.6.6",
+        "b1.7.2"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1640819058",
+        "cacheTag": "1641493782",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -50,6 +51,29 @@ var overviewerConfig = {
             "bgcolor": "#1a1a1a",
             "world": "b1.6.6",
             "last_rendertime": 1640818932,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                64,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": false,
+            "north_direction": 0
+        },
+        {
+            "name": "Beta 1.7.2",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "b1.7.2",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "b1.7.2",
+            "last_rendertime": 1641493572,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
