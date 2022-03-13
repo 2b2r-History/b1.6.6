@@ -23,15 +23,15 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
-        "b1.6.6",
-        "b1.7.2",
-        "b1.7.3",
+        "1.0.0",
         "b1.8.1",
-        "1.0.0"
+        "b1.7.3",
+        "b1.7.2",
+        "b1.6.6"
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1647190758",
+        "cacheTag": "1647191890",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -45,42 +45,42 @@ var overviewerConfig = {
     },
     "tilesets": [
         {
-            "name": "Beta 1.6.6",
+            "name": "1.0.0",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "b1.6.6",
+            "path": "1.0.0",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "b1.6.6",
-            "last_rendertime": 1640818932,
+            "world": "1.0.0",
+            "last_rendertime": 1647190634,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 0,
-                80,
+                64,
                 0
             ],
             "minZoom": 0,
             "spawn": [
                 0,
-                80,
+                64,
                 0
             ],
             "north_direction": 0
         },
         {
-            "name": "Beta 1.7.2",
+            "name": "Beta 1.8.1",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "b1.7.2",
+            "path": "b1.8.1",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "b1.7.2",
-            "last_rendertime": 1641493572,
+            "world": "b1.8.1",
+            "last_rendertime": 1646947378,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -126,15 +126,15 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "Beta 1.8.1",
+            "name": "Beta 1.7.2",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "b1.8.1",
+            "path": "b1.7.2",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "b1.8.1",
-            "last_rendertime": 1646947378,
+            "world": "b1.7.2",
+            "last_rendertime": 1641493572,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
@@ -153,28 +153,28 @@ var overviewerConfig = {
             "north_direction": 0
         },
         {
-            "name": "1.0.0",
+            "name": "Beta 1.6.6",
             "zoomLevels": 6,
             "defaultZoom": 1,
             "maxZoom": 6,
-            "path": "1.0.0",
+            "path": "b1.6.6",
             "base": "",
             "bgcolor": "#1a1a1a",
-            "world": "1.0.0",
-            "last_rendertime": 1647190634,
+            "world": "b1.6.6",
+            "last_rendertime": 1640818932,
             "imgextension": "png",
             "isOverlay": false,
             "poititle": "Markers",
             "showlocationmarker": true,
             "center": [
                 0,
-                64,
+                80,
                 0
             ],
             "minZoom": 0,
             "spawn": [
                 0,
-                64,
+                80,
                 0
             ],
             "north_direction": 0
