@@ -23,6 +23,7 @@ var overviewerConfig = {
         "LOWERRIGHT": 2
     },
     "worlds": [
+        "1.1",
         "1.0.0",
         "b1.8.1",
         "b1.7.3",
@@ -31,7 +32,7 @@ var overviewerConfig = {
     ],
     "map": {
         "debug": false,
-        "cacheTag": "1647191890",
+        "cacheTag": "1653913752",
         "north_direction": "lower-left",
         "controls": {
             "pan": true,
@@ -44,6 +45,33 @@ var overviewerConfig = {
         }
     },
     "tilesets": [
+        {
+            "name": "1.1",
+            "zoomLevels": 6,
+            "defaultZoom": 1,
+            "maxZoom": 6,
+            "path": "1.1",
+            "base": "",
+            "bgcolor": "#1a1a1a",
+            "world": "1.1",
+            "last_rendertime": 1653911863,
+            "imgextension": "png",
+            "isOverlay": false,
+            "poititle": "Markers",
+            "showlocationmarker": true,
+            "center": [
+                0,
+                66,
+                0
+            ],
+            "minZoom": 0,
+            "spawn": [
+                0,
+                66,
+                0
+            ],
+            "north_direction": 0
+        },
         {
             "name": "1.0.0",
             "zoomLevels": 6,
